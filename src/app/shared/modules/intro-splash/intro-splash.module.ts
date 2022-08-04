@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
-import { TechStackComponent } from './tech-stack.component';
+import { IntroSplashComponent } from './intro-splash.component';
 
-const COMPONENT = [TechStackComponent];
+const COMPONENT = [IntroSplashComponent];
 
 @NgModule({
   declarations: [COMPONENT],
@@ -13,4 +13,4 @@ const COMPONENT = [TechStackComponent];
     IonicModule
   ]
 })
-export class TechStackModule { }
+export class IntroSplashModule { }
