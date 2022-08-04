@@ -8,7 +8,7 @@ import { IndexPageRoutingModule } from './index-routing.module';
 
 import { IndexPage } from './index.page';
 
-import { HeaderModule } from 'src/app/shared/header/header.module';
+import { HeaderModule } from 'src/app/shared/modules/header/header.module';
 
 @NgModule({
   imports: [
