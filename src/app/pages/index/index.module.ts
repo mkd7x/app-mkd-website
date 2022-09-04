@@ -12,6 +12,7 @@ import { HeaderModule } from 'src/app/shared/modules/header/header.module';
 import { IntroSplashModule } from 'src/app/shared/modules/intro-splash/intro-splash.module';
 import { TechStackModule } from 'src/app/shared/modules/tech-stack/tech-stack.module';
 import { ExperienceTimelineModule } from 'src/app/shared/modules/experience-timeline/experience-timeline.module';
+import { ContactInfoModule } from 'src/app/shared/modules/contact-info/contact-info.module';
 
 @NgModule({
   imports: [
@@ -23,6 +24,7 @@ import { ExperienceTimelineModule } from 'src/app/shared/modules/experience-time
     IntroSplashModule,
     TechStackModule,
     ExperienceTimelineModule,
+    ContactInfoModule,
   ],
   declarations: [IndexPage]
 })
